@@ -48,3 +48,4 @@ COPY web web
 ENTRYPOINT ["dex"]
 
 CMD ["version"]
+
