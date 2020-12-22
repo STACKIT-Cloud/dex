@@ -37,6 +37,7 @@ bin/example-app:
 	@cd examples/ && go install -v -ldflags $(LD_FLAGS) $(REPO_PATH)/examples/example-app
 
 
+
 .PHONY: release-binary
 release-binary:
 	@go build -o /go/bin/dex -v -ldflags $(LD_FLAGS) $(REPO_PATH)/cmd/dex
