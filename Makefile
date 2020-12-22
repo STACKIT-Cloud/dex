@@ -5,6 +5,7 @@ export PATH := $(PWD)/bin:$(PATH)
 
 VERSION ?= $(shell ./scripts/git-version)
 
+
 DOCKER_REPO=quay.io/dexidp/dex
 DOCKER_IMAGE=$(DOCKER_REPO):$(VERSION)
 
