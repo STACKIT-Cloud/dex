@@ -8,6 +8,7 @@ VERSION ?= $(shell ./scripts/git-version)
 DOCKER_REPO=quay.io/dexidp/dex
 DOCKER_IMAGE=$(DOCKER_REPO):$(VERSION)
 
+
 $( shell mkdir -p bin )
 
 user=$(shell id -u -n)
