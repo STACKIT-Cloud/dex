@@ -97,6 +97,7 @@ bin/protoc-gen-go:
 clean:
 	@rm -rf bin/
 
+
 testall: testrace
 
 FORCE:
