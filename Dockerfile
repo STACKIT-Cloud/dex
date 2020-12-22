@@ -10,10 +10,6 @@ ENV GOOS=${TARGETOS} \
   GOARCH=${TARGETARCH} \
   GOARM=${TARGETVARIANT}
 
-
-
-
-
 RUN apk add --no-cache --update alpine-sdk
 
 ARG GOPROXY
